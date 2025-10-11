@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: login-demo
+    datasource:
+        url: jdbc:mysql://localhost:3306/login_demo?useSSL=false&serverTimezone
+        username: root
+        password: nephren
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+Mybatis:
+    mapper-Locations: classpath:mappers/*.xml
