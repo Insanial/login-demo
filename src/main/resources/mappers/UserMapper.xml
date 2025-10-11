@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.demo.login_demo.dao.UserDao">
     <select id="findByName" parameterType="String" resultType="com.demo.login_demo.entity.User">
-        SELECT * FROM user WHERE username = #{username}
+        SELECT * FROM user WHERE name = #{username}
     </select>
 </mapper>
